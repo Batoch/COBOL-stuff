@@ -5,7 +5,7 @@
       *DATA
        DATA DIVISION.
        WORKING-STORAGE SECTION.
-       77 seed PIC 99.
+       77 seed PIC 9(8) VALUE 0.
        77 nbatrouver PIC 99.
        77 nbentre PIC 99.
        77 lineend PIC 99.
@@ -44,9 +44,7 @@
            IF nbentre > nbatrouver THEN
                DISPLAY pla-plus
            ELSE
-               IF nbentre < nbatrouver THEN
-                   DISPLAY pla-moins
-               END-IF
+               DISPLAY pla-moins
            END-IF
        END-PERFORM.
 
