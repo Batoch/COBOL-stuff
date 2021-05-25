@@ -29,7 +29,7 @@
            2 PIC 99 FROM nbatrouver.
            2 LINE 5 COL 5 VALUE 'En seulement '.
            2 PIC 99 FROM nbessais.
-           2 LINE 5 COL 21 VALUE 'Coups, formidable'.
+           2 VALUE ' Coups, formidable'.
            
        1 pla-clear.
            2 BLANK SCREEN.
